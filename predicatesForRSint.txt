@@ -1,0 +1,4 @@
+// Predicates for RSint
+
+intendedActionIs_V_S_G
+timeSinceLastCommunication_0

@@ -1,0 +1,145 @@
+Final Generation Stats
+
+Generation runtime:0
+Average Generation runtime:0
+---------------------------
+
+ Best Individuals per Agent Pool
+Agent PoolAP1
+This agent pool has an action set of:,H_S_G ,H_S_Y ,EW_SL_G ,EW_SL_Y The top individual has a fitness of364.921568627451and its RS and RSint sets contain the following rules (formatted as "<conditions>, <action>"):
+
+ RS:
+Rule1: <,numCarsWaitingToProceedStraight_0_5 ,southNorthPhaseIs_Green ,numCarsWaitingToProceedStraight_25_35 >, <3> and rule has a weight of0
+
+Rule2: <,timeSpentInCurrentPhase_45_60 ,longestTimeWaitedToTurnLeft_60_90 ,longestTimeWaitedToProceedStraight_45_60 >, <3> and rule has a weight of0
+
+Rule3: <,longestTimeWaitedToTurnLeft_90_120 ,horizontalPhaseIsLeftTurn_Green ,timeSpentInCurrentPhase_45_60 ,westEastPhaseIs_Yellow ,northSouthPhaseIs_Yellow >, <3> and rule has a weight of0
+
+Rule4: <,numCarsWaitingToProceedStraight_25_35 ,timeSpentInCurrentPhase_45_60 ,timeSpentInCurrentPhase_240_270 >, <0> and rule has a weight of0
+
+Rule5: <,timeSpentInCurrentPhase_150_180 ,numCarsWaitingToTurnLeft_15 ,numCarsWaitingToTurnLeft_6_9 ,longestTimeWaitedToTurnLeft_90_120 ,longestTimeWaitedToTurnLeft_15_30 >, <3> and rule has a weight of0
+
+Rule6: <,numCarsWaitingToProceedStraight_0_5 ,southNorthPhaseIs_Green ,numCarsWaitingToProceedStraight_25_35 >, <3> and rule has a weight of0
+
+Rule7: <,timeSpentInCurrentPhase_0 ,timeSpentInCurrentPhase_240_270 ,numCarsWaitingToProceedStraight_5_10 ,longestTimeWaitedToProceedStraight_90_120 ,longestTimeWaitedToProceedStraight_210_240 >, <1> and rule has a weight of0
+
+Rule8: <,longestTimeWaitedToTurnLeft_60_90 ,longestTimeWaitedToTurnLeft_60_90 >, <2> and rule has a weight of-0.1577435671119884
+
+Rule9: <,southNorthPhaseIsLeftTurn_Green ,northSouthPhaseIs_Green ,numCarsWaitingToTurnLeft_12_15 >, <3> and rule has a weight of0
+
+Rule10: <,longestTimeWaitedToTurnLeft_45_60 ,verticalPhaseIs_Green >, <2> and rule has a weight of0
+
+RSint:
+Rule1: <,intendedActionIs_H_S_Y ,intendedActionIs_V_L_G ,timeSinceCommunication_0_5 ,intendedActionIs_V_L_G >, <2> and rule has a weight of0
+
+Rule2: <,intendedActionIs_WE_S_Y >, <3> and rule has a weight of0
+
+Rule3: <,intendedActionIs_H_L_G >, <0> and rule has a weight of0
+
+Rule4: <,intendedActionIs_NS_SL_G ,timeSinceCommunication_10_15 ,intendedActionIs_H_S_Y >, <0> and rule has a weight of0
+
+Rule5: <,intendedActionIs_EW_SL_Y ,intendedActionIs_NS_L_Y ,intendedActionIs_EW_L_G ,intendedActionIs_H_L_Y ,intendedActionIs_WE_L_G >, <3> and rule has a weight of0
+
+Rule6: <,intendedActionIs_NS_S_Y ,intendedActionIs_V_L_Y >, <3> and rule has a weight of0
+
+Rule7: <,intendedActionIs_H_S_G ,intendedActionIs_V_L_Y ,intendedActionIs_WE_SL_Y >, <0> and rule has a weight of0
+
+Rule8: <,intendedActionIs_NS_SL_Y ,timeSinceCommunication_15_20 ,intendedActionIs_SN_L_Y ,timeSinceCommunication_5_10 ,intendedActionIs_WE_L_Y >, <2> and rule has a weight of0
+
+Rule9: <,intendedActionIs_H_S_G ,intendedActionIs_V_S_G ,intendedActionIs_NS_L_G ,intendedActionIs_NS_S_Y ,timeSinceCommunication_15_20 >, <1> and rule has a weight of0
+
+Rule10: <,intendedActionIs_SN_SL_G ,intendedActionIs_WE_L_Y ,intendedActionIs_NS_S_Y ,intendedActionIs_SN_L_Y ,intendedActionIs_SN_L_G >, <0> and rule has a weight of0
+
+*******
+Agent PoolAP2
+This agent pool has an action set of:,H_S_G ,H_S_Y ,H_L_G ,H_L_Y ,V_S_G ,V_S_Y ,V_L_G ,V_L_Y The top individual has a fitness of200.81333333333333and its RS and RSint sets contain the following rules (formatted as "<conditions>, <action>"):
+
+ RS:
+Rule1: <,verticalPhaseIs_Green ,longestTimeWaitedToProceedStraight_120_150 >, <1> and rule has a weight of-8.9100078189216
+
+Rule2: <,longestTimeWaitedToProceedStraight_0_15 >, <1> and rule has a weight of-0.644554178164254
+
+Rule3: <,longestTimeWaitedToTurnLeft_60_90 ,timeSpentInCurrentPhase_15_30 >, <2> and rule has a weight of0
+
+Rule4: <,longestTimeWaitedToProceedStraight_15_30 ,numCarsWaitingToTurnLeft_0_3 ,timeSpentInCurrentPhase_270_300 ,longestTimeWaitedToTurnLeft_0_15 >, <6> and rule has a weight of0
+
+Rule5: <,numCarsWaitingToTurnLeft_12_15 ,longestTimeWaitedToProceedStraight_210_240 ,southNorthPhaseIs_Yellow ,timeSpentInCurrentPhase_270_300 ,timeSpentInCurrentPhase_30_45 >, <2> and rule has a weight of0
+
+Rule6: <,horizontalPhaseIs_Yellow ,longestTimeWaitedToProceedStraight_0 ,horizontalPhaseIsLeftTurn_Yellow ,timeSpentInCurrentPhase_90_120 ,numCarsWaitingToTurnLeft_9_12 >, <6> and rule has a weight of0
+
+Rule7: <,numCarsWaitingToProceedStraight_15_25 ,horizontalPhaseIs_Green ,timeSpentInCurrentPhase_120_150 >, <5> and rule has a weight of0
+
+Rule8: <,longestTimeWaitedToProceedStraight_300 ,westEastPhaseIs_Yellow ,southNorthPhaseIs_Green >, <7> and rule has a weight of0
+
+Rule9: <,numCarsWaitingToProceedStraight_5_10 ,southNorthPhaseIs_Green ,numCarsWaitingToProceedStraight_45 >, <6> and rule has a weight of0
+
+Rule10: <,northSouthPhaseIsLeftTurn_Yellow ,westEastPhaseIsLeftTurn_Yellow ,southNorthPhaseIs_Green ,northSouthPhaseIs_Green >, <5> and rule has a weight of0
+
+RSint:
+Rule1: <,intendedActionIs_WE_SL_G ,intendedActionIs_EW_S_Y ,intendedActionIs_V_S_Y >, <2> and rule has a weight of0
+
+Rule2: <,timeSinceCommunication_10_15 ,timeSinceCommunication_15_20 ,timeSinceCommunication_0 >, <4> and rule has a weight of0
+
+Rule3: <,customPredicate ,intendedActionIs_NS_S_G ,intendedActionIs_EW_L_G ,intendedActionIs_EW_SL_Y ,intendedActionIs_EW_S_G >, <0> and rule has a weight of0
+
+Rule4: <,intendedActionIs_EW_S_G ,intendedActionIs_WE_S_Y ,intendedActionIs_V_S_Y ,intendedActionIs_EW_L_G >, <4> and rule has a weight of0
+
+Rule5: <,timeSinceCommunication_20_25 ,timeSinceCommunication_0_5 >, <2> and rule has a weight of0
+
+Rule6: <,intendedActionIs_H_L_G ,intendedActionIs_WE_S_Y ,intendedActionIs_WE_SL_Y >, <5> and rule has a weight of0
+
+Rule7: <,intendedActionIs_SN_L_G ,intendedActionIs_WE_S_G >, <2> and rule has a weight of0
+
+Rule8: <,intendedActionIs_WE_L_G ,intendedActionIs_WE_SL_G ,intendedActionIs_SN_L_Y ,intendedActionIs_V_S_Y ,customPredicate >, <6> and rule has a weight of0
+
+Rule9: <,intendedActionIs_NS_L_G ,intendedActionIs_H_L_G >, <7> and rule has a weight of0
+
+Rule10: <,timeSinceCommunication_20_25 ,intendedActionIs_SN_S_Y ,intendedActionIs_EW_L_G ,intendedActionIs_EW_S_G >, <4> and rule has a weight of0
+
+*******
+Agent PoolAP3
+This agent pool has an action set of:,H_S_G ,H_S_Y ,SN_L_G ,SN_L_Y ,NS_L_G ,NS_L_Y The top individual has a fitness of249.27777777777777and its RS and RSint sets contain the following rules (formatted as "<conditions>, <action>"):
+
+ RS:
+Rule1: <,longestTimeWaitedToTurnLeft_240_270 ,longestTimeWaitedToProceedStraight_30_45 ,eastWestPhaseIsLeftTurn_Yellow ,longestTimeWaitedToTurnLeft_15_30 >, <3> and rule has a weight of0
+
+Rule2: <,timeSpentInCurrentPhase_15_30 ,longestTimeWaitedToProceedStraight_0 ,longestTimeWaitedToTurnLeft_240_270 ,timeSpentInCurrentPhase_120_150 >, <1> and rule has a weight of0
+
+Rule3: <,numCarsWaitingToTurnLeft_0 ,numCarsWaitingToProceedStraight_0_5 ,northSouthPhaseIs_Green ,numCarsWaitingToTurnLeft_9_12 ,timeSpentInCurrentPhase_270_300 >, <0> and rule has a weight of0
+
+Rule4: <,northSouthPhaseIs_Green ,timeSpentInCurrentPhase_120_150 ,westEastPhaseIsLeftTurn_Yellow ,longestTimeWaitedToTurnLeft_90_120 >, <0> and rule has a weight of0
+
+Rule5: <,longestTimeWaitedToTurnLeft_180_210 ,longestTimeWaitedToTurnLeft_45_60 ,longestTimeWaitedToProceedStraight_30_45 ,longestTimeWaitedToProceedStraight_15_30 ,numCarsWaitingToProceedStraight_15_25 >, <0> and rule has a weight of0
+
+Rule6: <,horizontalPhaseIsLeftTurn_Green ,eastWestPhaseIsLeftTurn_Green >, <0> and rule has a weight of0
+
+Rule7: <,westEastPhaseIsLeftTurn_Yellow ,timeSpentInCurrentPhase_210_240 >, <1> and rule has a weight of0
+
+Rule8: <,longestTimeWaitedToProceedStraight_150_180 ,longestTimeWaitedToTurnLeft_0 ,numCarsWaitingToProceedStraight_10_15 ,verticalPhaseIs_Green >, <1> and rule has a weight of0
+
+Rule9: <,longestTimeWaitedToProceedStraight_30_45 ,timeSpentInCurrentPhase_180_210 ,horizontalPhaseIsLeftTurn_Green ,longestTimeWaitedToProceedStraight_180_210 ,longestTimeWaitedToTurnLeft_270_300 >, <1> and rule has a weight of0
+
+Rule10: <,southNorthPhaseIsLeftTurn_Yellow ,longestTimeWaitedToTurnLeft_15_30 >, <4> and rule has a weight of0
+
+RSint:
+Rule1: <,timeSinceCommunication_20_25 ,intendedActionIs_EW_SL_Y >, <3> and rule has a weight of0
+
+Rule2: <,timeSinceCommunication_15_20 >, <5> and rule has a weight of0
+
+Rule3: <,intendedActionIs_EW_L_G ,intendedActionIs_NS_L_G ,intendedActionIs_V_S_G ,intendedActionIs_NS_S_Y ,intendedActionIs_WE_S_G >, <3> and rule has a weight of0
+
+Rule4: <,intendedActionIs_V_L_Y ,intendedActionIs_EW_SL_G ,intendedActionIs_H_S_Y ,intendedActionIs_NS_S_G ,timeSinceCommunication_15_20 >, <5> and rule has a weight of0
+
+Rule5: <,intendedActionIs_H_S_Y ,intendedActionIs_EW_S_Y ,timeSinceCommunication_0_5 >, <2> and rule has a weight of0
+
+Rule6: <,intendedActionIs_NS_SL_Y ,intendedActionIs_V_S_G >, <5> and rule has a weight of0
+
+Rule7: <,timeSinceCommunication_0_5 >, <4> and rule has a weight of0
+
+Rule8: <,intendedActionIs_SN_SL_G >, <1> and rule has a weight of0
+
+Rule9: <,intendedActionIs_SN_SL_G ,intendedActionIs_SN_L_G ,intendedActionIs_V_L_G >, <0> and rule has a weight of0
+
+Rule10: <,intendedActionIs_WE_SL_G >, <2> and rule has a weight of0
+
+*******

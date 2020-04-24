@@ -1,0 +1,10 @@
+//USER-DEFINED RULES
+//
+//Format: one rule per line, use form: udr<index>:<condition(s)>
+//Note: Ensure no white space following conditions; if multiple conditions, delimit with comma (ex: cond1, cond2)
+
+
+udr1: emergencyVehicleApproachingVertical
+udr2: emergencyVehicleApproachingHorizontal
+udr3: maxGreenPhaseTimeReached
+udr4: maxYellowPhaseTimeReached
