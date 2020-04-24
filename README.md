@@ -1,5 +1,5 @@
 # OptimizingTrafficLightsWithML
-Research project to optimizing traffic signal controller agents with AI and ML. Read FinalReport.pdf for more details.
+Research project to optimizing traffic signal controller agents with AI and ML. Read FinalReport.pdf for more details. Project code not final; needs cleaning. 
 
 ### Brief System Info
 System is built in Python 3. All .py files are system components. Define general parameters in main.py. Define genetic parameters in EvolutionaryAlgorithm.py. Use with SUMO traffic simulator (download: http://sumo.sourceforge.net/). 
